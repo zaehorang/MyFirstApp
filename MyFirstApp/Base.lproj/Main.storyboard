@@ -39,6 +39,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wmC-B2-IuT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -50,6 +53,10 @@
                             <constraint firstItem="Dxe-6m-gya" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="amh-QD-ubS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainLable" destination="Dxe-6m-gya" id="KWi-5E-Fh8"/>
+                        <outlet property="myButton" destination="Seu-d8-hnB" id="6Qa-7e-0eX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
